@@ -1,0 +1,46 @@
+name: quran_kids_app
+description: "تطبيق المصحف المعلم للصغار للأندرويد - تحفيظ القرآن الكريم للأطفال مع التكرار والترديد"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # HTTP & API
+  http: ^1.2.0
+
+  # Audio Playback & Streaming
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+
+  # Voice Recording for Kids
+  record: ^5.0.5
+  path_provider: ^2.1.2
+
+  # State Management
+  provider: ^6.1.1
+
+  # Local Storage & Progress
+  shared_preferences: ^2.2.2
+
+  # UI Components & Styling
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.7.0
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
